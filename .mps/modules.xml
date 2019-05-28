@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/TestGit4idea.build/TestGit4idea.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/testgit4idea.git4idea/testgit4idea.git4idea.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/testgit4idea.plugin/testgit4idea.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/testgit4idea.test/testgit4idea.test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/testgit4idea.testplugin/testgit4idea.testplugin.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="testgit4idea.plugin.plugin.TestGit4IdeaCall">
+    <classNode dependClassName="git4idea.commands.GitCommand" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+  </dependency>
+</dependenciesRoot>
+
