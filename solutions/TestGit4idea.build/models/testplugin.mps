@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:50db374d-57f4-4d0b-adb8-db79d44bb766(ggg)">
+<model ref="r:50db374d-57f4-4d0b-adb8-db79d44bb766(TestGit4idea.build.testplugin)">
   <persistence version="9" />
   <languages>
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
