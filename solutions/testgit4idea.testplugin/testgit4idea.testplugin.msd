@@ -5,6 +5,9 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet pluginId="TestPluginGit4Idea" type="ideaPlugin" />
+  </facets>
   <sourcePath />
   <dependencies>
     <dependency reexport="true">c45f0636-00c0-4eeb-a9f9-9eddf2270585(testgit4idea.git4idea)</dependency>
