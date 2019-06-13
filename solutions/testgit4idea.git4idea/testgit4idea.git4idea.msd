@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="testgit4idea.git4idea" uuid="c45f0636-00c0-4eeb-a9f9-9eddf2270585" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="testgit4idea.git4idea" uuid="c45f0636-00c0-4eeb-a9f9-9eddf2270585" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="false">
   <models>
     <modelRoot contentPath="${mps_home}/plugins/git4idea/lib" type="java_classes">
       <sourceRoot location="git4idea.jar" />

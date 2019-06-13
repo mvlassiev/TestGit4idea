@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="testgit4idea.testplugin.plugin.TestExtension">
-    <classNode dependClassName="com.intellij.openapi.project.Project" />
-    <classNode dependClassName="com.intellij.openapi.ui.DialogWrapper" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode dependClassName="javax.swing.Icon" />
-    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
-    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
-    <classNode extendsClassName="git4idea.DialogManager" />
-  </dependency>
   <dependency className="testgit4idea.testplugin.plugin.TestPlugin">
     <classNode dependClassName="git4idea.commands.GitCommand" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.System" />
+  </dependency>
+  <dependency className="testgit4idea.testplugin.plugin.TestSubscription_ProjectPluginPart">
+    <classNode dependClassName="com.intellij.util.messages.MessageBusConnection" />
+    <classNode dependClassName="git4idea.repo.GitRepository" />
+    <classNode dependClassName="git4idea.repo.GitRepositoryChangeListener" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="jetbrains.mps.project.MPSProject" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode extendsClassName="jetbrains.mps.plugins.part.ProjectPluginPart" />
+  </dependency>
+  <dependency className="testgit4idea.testplugin.plugin.Testplugin_ProjectPlugin">
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.plugins.part.ProjectPluginPart" />
+    <classNode dependClassName="testgit4idea.testplugin.plugin.TestSubscription_ProjectPluginPart" />
+    <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
   </dependency>
 </dependenciesRoot>
 

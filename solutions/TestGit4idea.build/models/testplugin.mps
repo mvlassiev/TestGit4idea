@@ -11,21 +11,6 @@
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
   </imports>
   <registry>
-    <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
-      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
-        <property id="6666499814681541920" name="text" index="2pMdty" />
-      </concept>
-      <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
-        <property id="6666499814681415862" name="tagName" index="2pNNFO" />
-        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
-        <child id="1622293396948928802" name="content" index="3o6s8t" />
-      </concept>
-      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
-        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
-        <child id="6666499814681541918" name="value" index="2pMdts" />
-      </concept>
-      <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG" />
-    </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
       <concept id="7321017245476976379" name="jetbrains.mps.build.structure.BuildRelativePath" flags="ng" index="iG8Mu">
@@ -86,7 +71,6 @@
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
-        <child id="1359186315025500371" name="xml" index="20twgj" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
@@ -185,37 +169,6 @@
     </node>
     <node concept="m$_wf" id="3ZYqu6bC9M8" role="3989C9">
       <property role="m$_wk" value="TestPluginGit4Idea" />
-      <node concept="2pNNFK" id="5ZvlH3ic8wP" role="20twgj">
-        <property role="2pNNFO" value="extensions" />
-        <node concept="2pNUuL" id="5ZvlH3iciZM" role="2pNNFR">
-          <property role="2pNUuO" value="defaultExtensionNs" />
-          <node concept="2pMdtt" id="5ZvlH3iciZN" role="2pMdts">
-            <property role="2pMdty" value="com.intellij" />
-          </node>
-        </node>
-        <node concept="2pNNFK" id="5ZvlH3ich7D" role="3o6s8t">
-          <property role="2pNNFO" value="applicationService" />
-          <node concept="2pNUuL" id="5ZvlH3icj6H" role="2pNNFR">
-            <property role="2pNUuO" value="serviceInterface" />
-            <node concept="2pMdtt" id="5ZvlH3icj6I" role="2pMdts">
-              <property role="2pMdty" value="git4idea.DialogManager" />
-            </node>
-          </node>
-          <node concept="2pNUuL" id="5ZvlH3icjga" role="2pNNFR">
-            <property role="2pNUuO" value="serviceImplementation" />
-            <node concept="2pMdtt" id="5ZvlH3icjgb" role="2pMdts">
-              <property role="2pMdty" value="testgit4idea.testplugin.plugin.TestExtension" />
-            </node>
-          </node>
-          <node concept="2pNUuL" id="5ZvlH3icjn9" role="2pNNFR">
-            <property role="2pNUuO" value="overrides" />
-            <node concept="2pMdtt" id="5ZvlH3icjna" role="2pMdts">
-              <property role="2pMdty" value="true" />
-            </node>
-          </node>
-          <node concept="3o6iSG" id="5ZvlH3ichyo" role="3o6s8t" />
-        </node>
-      </node>
       <node concept="3_J27D" id="3ZYqu6bC9M9" role="m$_yQ">
         <node concept="3Mxwew" id="3ZYqu6bC9Ma" role="3MwsjC">
           <property role="3MwjfP" value="git4idea.testplugin (uses git4idea.stubs)" />
@@ -277,6 +230,11 @@
         <node concept="1SiIV0" id="5ZvlH3icnF5" role="3bR37C">
           <node concept="3bR9La" id="5ZvlH3icnF6" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7h9Tq4DiAi$" role="3bR37C">
+          <node concept="3bR9La" id="7h9Tq4DiAi_" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
           </node>
         </node>
       </node>
