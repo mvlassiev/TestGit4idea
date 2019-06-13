@@ -7,7 +7,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet pluginId="git4idea.stubs" type="ideaPlugin" />
+    <facet pluginId="Git4Idea" type="ideaPlugin" />
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${mps_home}/plugins/git4idea/lib/git4idea.jar" />
