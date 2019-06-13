@@ -162,7 +162,7 @@
       </node>
     </node>
     <node concept="13uUGR" id="9gN3De9tqH" role="1l3spa">
-      <ref role="13uUGO" to="nr07:6dcdYaLwDTV" resolve="Git4Idea" />
+      <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
       <node concept="398BVA" id="9gN3De9trh" role="13uUGP">
         <ref role="398BVh" node="3ZYqu6bC9LY" resolve="mps_home" />
       </node>
